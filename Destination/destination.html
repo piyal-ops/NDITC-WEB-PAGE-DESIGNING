@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exploore - Destination</title>
+	<link rel="shortcut icon" href="../images/icon-logo.png">
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- flat icon -->
+	<link rel="stylesheet" href="font/flaticon.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+	<link rel="stylesheet" href="destination.css">
+</head>
+<body>
+	<header class="header-area">
+		<div class="top-area">
+			<div class="details-part">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-sm-3">
+							<div class="phone-item">
+								<i class="fas fa-phone-alt"></i> <span class="mob">123 4567</span>	
+							</div>		
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="email-item">
+								<i class="fas fa-envelope"></i> <span class="ema">exploree@gmail.com</span>
+							</div>
+						</div>
+						<div class="col-md-4 social-main">
+							<div class="social-icon-part">
+								<i class="fab fa-facebook-f"></i>
+								<i class="fab fa-google-plus-g"></i>
+								<i class="fab fa-linkedin-in"></i>
+								<i class="fab fa-vk"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-5 col-12">
+							<div class="regi-part">
+								<div class="login-part" title="Log In">
+									<i class="fas fa-user"></i> <span class="logIn" data-toggle="modal" data-target="#exampleModal">Login</span>
+								</div>
+								<div class="signup-part" title="Sign Up">
+									<i class="fas fa-key"></i> <span class="signUp" data-toggle="modal" data-target="#exampleModal2">Sign Up</span>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="menu-part">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-6 men-logo">
+							<a href="../index.html"><img src="../images/logo.png" alt="logo" style="height: 42px;"></a>
+						</div>
+						<div class="col-md-9 col-6">
+							<div class="icon-part-bars">
+								<i class="fas fa-bars"></i>
+							</div>
+							<nav class="menu-part-menu">
+								<ul>
+									<li class="cross">
+										<i class="fas fa-times" target="blank"></i>
+									</li>
+									<li><a href="../index.html" target="blank">HOME</a></li>
+									<li><a href="destination.html">DESTINATION</a></li>
+									<li><a href="../About/about.html" target="blank">ABOUT</a></li>
+									<li><a href="../Blog/blog.html" target="blank">BLOG</a></li>
+									<li><a href="../Contact/contact.html" target="blank">CONTACT</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-body">
+			<div class="ab">
+				<h3>Destination</h3>
+			</div>
+		</div>	
+
+	</header>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-body">
+
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	        <br>
+	        <h2>Sign In</h2>
+
+	        <form class="signIn">
+	        	<div class="username">
+	        		<label for="use">Username</label>
+	        		<br>
+	        		<input type="text" name="" placeholder="Enter your username" id="use" class="form-control">
+	        	</div>
+	        	<div class="pass">
+	        		<label for="papa">Password</label>
+	        		<br>
+	        		<input type="password" name="" placeholder="Enter your password" id="papa" class="form-control">
+	        	</div>
+	        	<div class="rem">
+	        		<input type="checkbox" name="" id="chch">
+	        		<label for="chch">Remember me</label>
+	        	</div>
+	        	<input type="submit" name="" value="Submit" class="subl">
+	        	<h5>Forgot <span><a href="#">password?</a></span></h5>
+	        </form>
+
+	      </div>
+	    </div>
+	  </div>
+	</div><!-- Button trigger modal -->
+
+
+
+	<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-body">
+
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	        <br>
+	        <h2>Sign Up</h2>
+	        <p>It's free and only takes a few miniutes.</p>
+	        <form class="signIn">
+	        	<div class="username">
+	        		<label for="use2">Username</label>
+	        		<br>
+	        		<input type="text" name="" id="use2" class="form-control">
+	        	</div>
+	        	<div class="pass">
+	        		<label for="emem">Email</label>
+	        		<br>
+	        		<input type="email" name="" id="emem" class="form-control">
+	        	</div>
+	        	<div class="pass">
+	        		<label for="papa2">Password</label>
+	        		<br>
+	        		<input type="password" name="" id="papa2" class="form-control">
+	        	</div>
+	        	<div class="pass passC">
+	        		<label for="papa3">Confirm Password</label>
+	        		<br>
+	        		<input type="password" name="" id="papa3" class="form-control">
+	        	</div>
+	        	<input type="submit" name="" value="Sign Up" class="subl">
+	        	<h6>By clicking the sign up button, You agree to our <a href="#">Terms & conditions</a> and <a href="#">Privacy Policy</a></h6>
+	        </form>
+
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- header end -->
+
+	
+
+	<div class="gallery-area">
+		<div class="heading-gallery">
+			<h3><i>Most visited places</i></h3>
+			<h2>Popular Locations</h2>
+		</div>
+		<div class="gallery-part">
+			<!-- Buttons -->
+			<div class="button-group filter-button-group button-select">
+			   <button data-filter="*" class="current">Show All</button>
+			   <button data-filter=".web">Adventure</button>
+			   <button data-filter=".graphic">Tourist Places</button>
+			   <button data-filter=".photo">Historical places</button>
+			</div>
+
+			 <!-- Layout -->
+			<div class="abcd-main grid container">
+			   <div class="grid-item abcd">
+			   		<img src="../images/a1.jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Nepal</h3>
+			   			<input type="submit" name="" value="60 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item web abcd">
+			   		<img src="../images/a1 (1).jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Brazil</h3>
+			   			<input type="submit" name="" value="63 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item photo abcd">
+			   		<img src="../images/a1 (2).jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Tokyo</h3>
+			   			<input type="submit" name="" value="65 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item graphic abcd">
+			   		<img src="../images/a4.jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>New York</h3>
+			   			<input type="submit" name="" value="65 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item photo abcd">
+			   		<img src="../images/a4 (1).jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Bangladesh</h3>
+			   			<input type="submit" name="" value="58 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item graphic abcd">
+			   		<img src="../images/a4 (2).jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>France</h3>
+			   			<input type="submit" name="" value="64 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item web abcd">
+			   		<img src="../images/a4 (3).jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>London</h3>
+			   			<input type="submit" name="" value="69 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item web abcd">
+			   		<img src="../images/a4 (4).jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Srilanka</h3>
+			   			<input type="submit" name="" value="55 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item graphic abcd">
+			   		<img src="../images/a4 (5).jpg" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>China</h3>
+			   			<input type="submit" name="" value="62 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item graphic abcd">
+			   		<img src="../images/location1.png" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Australia</h3>
+			   			<input type="submit" name="" value="67 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item graphic abcd">
+			   		<img src="../images/location2.png" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Paris</h3>
+			   			<input type="submit" name="" value="65 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item photo abcd">
+			   		<img src="../images/location3.png" alt="image">
+			   		<div class="overlay-heading">
+			   			<h3>Rome</h3>
+			   			<input type="submit" name="" value="64 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item graphic abcd">
+			   	<img src="../images/location4.png" alt="image">
+			   	<div class="overlay-heading">
+			   			<h3>Italy</h3>
+			   			<input type="submit" name="" value="63 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item web abcd">
+			   	<img src="../images/location5.png" alt="image">
+			   	<div class="overlay-heading">
+			   			<h3>Indonesia</h3>
+			   			<input type="submit" name="" value="61 + Location">
+			   		</div>
+			   </div>
+			   <div class="grid-item photo abcd">
+			   	<img src="../images/location6.png" alt="image">
+			   	<div class="overlay-heading">
+			   			<h3>Newzealand</h3>
+			   			<input type="submit" name="" value="65 + Location">
+			   		</div>
+			   </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- second-part -->
+
+
+
+	<div class="third-part">
+		<div class="img-write">
+			<div class="img-third wow rollIn">
+				<img src="../images/train.png" alt="image">
+			</div>
+			<div class="third-write wow rollIn">
+				<h2>Trusted Since 2001</h2>
+				<h3>We are Exploore</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<ul>
+					<li>
+						<i class="fas fa-check-circle"></i><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span>
+					</li>
+					<li>
+						<i class="fas fa-check-circle"></i><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span>
+					</li>
+					<li>
+						<i class="fas fa-check-circle"></i><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- third-part end -->
+
+	<div class="ten-part">
+		<div class="container">
+			<div class="ten-part-img">
+				<div class="book-now wow flipInX">
+					<h2>New York + Paris</h2>
+					<h3>7 Day + 6 Night</h3>
+					<div class="icon10">
+						<div class="row">
+							<div class="col-3 text-center">
+								<i class="fas fa-ship"></i>
+								<br>
+								<span>Ship</span>
+							</div>
+							<div class="col-3 text-center">
+								<i class="fas fa-train"></i>
+								<br>
+								<span>Train</span>
+							</div>
+							<div class="col-3 text-center">
+								<i class="fas fa-landmark"></i>
+								<br>
+								<span>Hotel</span>
+							</div>
+						</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="tenten">
+					<strong class="taka1000">$1000</strong>
+						<form class="form10">
+							<input type="submit" name="" value="BOOK NOW">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Fourth part end -->
+
+	<div class="twelve-part">
+		<div class="heading12">
+			<h2>Start Your Journey</h2>
+			<h3>Contact Us</h3>
+		</div>
+		<a href="../Contact/contact.html" class="map-icon"><i class="fas fa-map-marker-alt"></i></a>
+	</div>
+
+	<!-- fifth-part end-->
+
+	<div class="thirteen-part">
+		<div class="container">
+			<div class="row qwerty justify-content-center">
+				<div class="col-md-4 col-sm-6 same13">
+					<div class="same13-child">
+						<div class="icon13">
+							<i class="far fa-envelope"></i>
+						</div>
+						<div class="writing13">
+							<h3>Email</h3>
+							<p>exploree@gmail.com<br>
+							exploreeadv@.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 same13">
+					<div class="same13-child">
+						<div class="icon13">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<div class="writing13">
+							<h3>Contact Us</h3>
+							<p>123456789<br>
+							123456789</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 same13">
+					<div class="same13-child">
+						<div class="icon13">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="writing13">
+							<h3>Address</h3>
+							<p>12,abcdef<br>
+							12,abcdef</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="last-icon-part">
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-facebook-f"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-google-plus-g"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-vk"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-youtube"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInRight">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-linkedin-in"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInRight">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-digg"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInRight">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-deviantart"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- thirteen end -->
+
+	<footer class="footer-end">
+		<div class="writing-footer text-center">
+			<p>Designed By Piyal Chowdhury
+			<br>Copyright&copy;2023, All Right Reserved	
+			</p>
+		</div>
+	</footer>
+
+	<!-- footer end -->
+
+	<!-- scroll top -->
+	<div class="scroll-to-top">
+		<i class="fas fa-arrow-up"></i>
+	</div>	
+
+
+
+
+ <!-- js & jq -->
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<!-- water ripples -->
+<script src="js/jquery.ripples-min.js"></script>
+<!-- isotope -->
+<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<!-- main js -->
+<script src="js/destination.js"></script>
+
+<!-- fontawesome -->	
+<script src="https:/kit.fontawesome.com/a2f6319d77.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

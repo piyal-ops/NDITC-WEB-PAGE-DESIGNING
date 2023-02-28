@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exploore - Home</title>
+	<link rel="shortcut icon" href="images/icon-logo.png">
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<!-- flat icon -->
+	<link rel="stylesheet" href="font/flaticon.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header-area">
+		<div class="top-area">
+			<div class="details-part">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-sm-3">
+							<div class="phone-item">
+								<i class="fas fa-phone-alt"></i> <span class="mob">123 4567</span>	
+							</div>		
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="email-item">
+								<i class="fas fa-envelope"></i> <span class="ema">exploree@gmail.com</span>
+							</div>
+						</div>
+						<div class="col-md-4 social-main">
+							<div class="social-icon-part">
+								<i class="fab fa-facebook-f"></i>
+								<i class="fab fa-google-plus-g"></i>
+								<i class="fab fa-linkedin-in"></i>
+								<i class="fab fa-vk"></i>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-5 col-12">
+							<div class="regi-part">
+								<div class="login-part" title="Log In" data-toggle="modal" data-target="#exampleModal">
+									<i class="fas fa-user"></i> <span class="logIn">Login</span>
+								</div>
+								<div class="signup-part" title="Sign Up" data-toggle="modal" data-target="#exampleModal2">
+									<i class="fas fa-key"></i> <span class="signUp">Sign Up</span>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+					<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-body">
+
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				        <br>
+				        <h2>Sign In</h2>
+
+				        <form class="signIn">
+				        	<div class="username">
+				        		<label for="use">Username</label>
+				        		<br>
+				        		<input type="text" name="" placeholder="Enter your username" id="use" class="form-control">
+				        	</div>
+				        	<div class="pass">
+				        		<label for="papa">Password</label>
+				        		<br>
+				        		<input type="password" name="" placeholder="Enter your password" id="papa" class="form-control">
+				        	</div>
+				        	<div class="rem">
+				        		<input type="checkbox" name="" id="chch">
+				        		<label for="chch">Remember me</label>
+				        	</div>
+				        	<input type="submit" name="" value="Submit" class="subl">
+				        	<h5>Forgot <span><a href="#">password?</a></span></h5>
+				        </form>
+
+				      </div>
+				    </div>
+				  </div>
+				</div><!-- Button trigger modal -->		
+
+
+
+				<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-body">
+
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				        <br>
+				        <h2>Sign Up</h2>
+				        <p>It's free and only takes a few miniutes.</p>
+				        <form class="signIn">
+				        	<div class="username">
+				        		<label for="use2">Username</label>
+				        		<br>
+				        		<input type="text" name="" id="use2" class="form-control">
+				        	</div>
+				        	<div class="pass">
+				        		<label for="emem">Email</label>
+				        		<br>
+				        		<input type="email" name="" id="emem" class="form-control">
+				        	</div>
+				        	<div class="pass">
+				        		<label for="papa2">Password</label>
+				        		<br>
+				        		<input type="password" name="" id="papa2" class="form-control">
+				        	</div>
+				        	<div class="pass passC">
+				        		<label for="papa3">Confirm Password</label>
+				        		<br>
+				        		<input type="password" name="" id="papa3" class="form-control">
+				        	</div>
+				        	<input type="submit" name="" value="Sign Up" class="subl">
+				        	<h6>By clicking the sign up button, You agree to our <a href="#">Terms & conditions</a> and <a href="#">Privacy Policy</a></h6>
+				        </form>
+
+
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			
+
+			<div class="menu-part">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3 col-6 men-logo">
+							<a href="index.html"><img src="images/logo.png" alt="logo" style="height: 42px;"></a>
+						</div>
+						<div class="col-sm-9 col-6">
+							<div class="icon-part-bars">
+								<i class="fas fa-bars"></i>
+							</div>
+							<nav class="menu-part-menu">
+								<ul>
+									<li class="cross">
+										<i class="fas fa-times"></i>
+									</li>
+									<li><a href="index.html">HOME</a></li>
+									<li><a href="Destination/destination.html" target="blank">DESTINATION</a></li>
+									<li><a href="About/about.html" target="blank">ABOUT</a></li>
+									<li><a href="Blog/blog.html" target="blank">BLOG</a></li>
+									<li><a href="Contact/contact.html" target="blank">CONTACT</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-body">
+			<div class="ab">
+				<div>
+					<h1>Start Your Greatest</h1>
+				<h2>Adventure with us!</h2>
+				<div class="header-body-p">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+				<form><input type="submit" name="" value="Click Here"></form>
+				</div>	
+			</div>
+		</div>	
+
+	</header>
+
+	<!-- header end -->
+
+	<div class="second-part">
+		<div class="heading2">
+			<h2>FIND HOTELS</h2>
+		</div>
+		<div class="container">
+			<form>
+				<div class="row">
+					<div class="col-lg-2 col-sm-4 wow fadeInLeftBig">
+						<label for="po">Where?</label>
+						<br>
+						<input type="text" name="" placeholder="Location" id="po">
+					</div>
+					<div class="col-lg-2 col-sm-4 wow fadeInLeftBig">
+						<label for="iu">Check in</label>
+						<br>
+						<input type="text" name="" placeholder="DD-MM-YYYY" id="iu">
+					</div>
+					<div class="col-lg-2 col-sm-4 wow fadeInLeftBig">
+						<label for="yt">Check out</label>
+						<br>
+						<input type="text" name="" placeholder="DD-MM-YYYY" id="yt">
+					</div>
+					<div class="col-lg-2 col-sm-4 wow fadeInRightBig">
+						<label for="re">Adult</label>
+						<br>
+						<input type="text" name="" placeholder="01" id="re">
+					</div>
+					<div class="col-lg-2 col-sm-4 wow fadeInRightBig">
+						<label for="wq">Child</label>
+						<br>
+						<input type="text" name="" placeholder="00" id="wq">
+					</div>
+					<div class="col-lg-2 col-sm-4 submit-check wow fadeInRightBig">
+						<input type="submit" name="" value="Click Here">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- second-part end -->
+
+	<div class="third-part">
+		<div class="img-write">
+			<div class="img-third wow rollIn">
+				<img src="images/train.png" alt="image">
+			</div>
+			<div class="third-write wow rollIn">
+				<h2>Trusted Since 2001</h2>
+				<h3>We are Exploore</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<ul>
+					<li>
+						<i class="fas fa-check-circle"></i><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span>
+					</li>
+					<li>
+						<i class="fas fa-check-circle"></i><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span>
+					</li>
+					<li>
+						<i class="fas fa-check-circle"></i><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- third-part end -->
+
+	<div class="fourth-part">
+		<div class="fourth-write">
+			<h2>Our Best Services</h2>
+			<h3>We are Travel Agent</h3>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 new4">
+					<div>
+						<div class="ship common-fourth">
+							<div><i class="fas fa-ship"></i></div>	
+							<div>
+								<h4>Lorem Ipsum Dolor Sit</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod.</p>
+							</div>
+						</div>
+						<div class="hotel common-fourth">
+							<div><i class="fas fa-landmark"></i></div>	
+							<div>
+								<h4>Lorem Ipsum Dolor Sit</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod.</p>
+							</div>
+						</div>
+						<div class="eat common-fourth">
+							<div><i class="fas fa-utensils"></i></div>	
+							<div>
+								<h4>Lorem Ipsum Dolor Sit</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 new4">
+					<div>
+						<div class="truck common-fourth">
+							<div><i class="fas fa-truck"></i></div>	
+							<div>
+								<h4>Lorem Ipsum Dolor Sit</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod.</p>
+							</div>
+						</div>
+						<div class="motor-bike common-fourth">
+							<div><i class="fas fa-motorcycle"></i></div>	
+							<div>
+								<h4>Lorem Ipsum Dolor Sit</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod.</p>
+							</div>
+						</div>
+						<div class="train common-fourth">
+							<div><i class="fas fa-train"></i></div>	
+							<div>
+								<h4>Lorem Ipsum Dolor Sit</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- fourth-end -->
+
+	<div class="fifth-part">
+		<div class="fifth-heading">
+			<h2>Trusted Since 2001</h2>
+			<h3>We are Travel Agent</h3>
+		</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-sm-6 fifth-party wow zoomInLeft">
+					<div class="fifth-party-time">
+						<div class="for-hover">
+							<i class="fas fa-car-alt"></i>
+							<h4>Low Budget Trip</h4>
+							<p>$500</p>
+							<ul>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+							</ul>
+						</div>
+						<div class="overlay5">
+							<div class="for-hover">
+							<i class="fas fa-car-alt"></i>
+							<h4>Low Budget Trip</h4>
+							<p>$500</p>
+							<ul>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+							</ul>
+						</div>
+						</div>	
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 fifth-party wow zoomInLeft">
+					<div class="fifth-party-time">
+						<div class="for-hover">
+							<i class="fas fa-train"></i>
+							<h4>Mid Budget Trip</h4>
+							<p>$800</p>
+							<ul>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+							</ul>
+						</div>
+						<div class="overlay5">
+							<div class="for-hover">
+							<i class="fas fa-train"></i>
+							<h4>Mid Budget Trip</h4>
+							<p>$800</p>
+							<ul>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+							</ul>
+						</div>
+						</div>	
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 fifth-party wow zoomInLeft">
+					<div class="fifth-party-time">
+						<div class="for-hover">
+							<i class="fas fa-ship"></i>
+							<h4>Heigh Budget Trip</h4>
+							<p>$1000</p>
+							<ul>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+							</ul>
+						</div>
+						<div class="overlay5">
+							<div class="for-hover">
+							<i class="fas fa-ship"></i>
+							<h4>Heigh Budget Trip</h4>
+							<p>$1000</p>
+							<ul>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+								<li><i class="fas fa-check-circle"></i> Lorem ipsum dolar</li>
+							</ul>
+						</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- fifth-end -->
+
+	<div class="sixth-part">
+		<div class="sixth-heading">
+			<h3><i>Easy to explore</i></h3>
+			<h2>How It Works</h2>
+		</div>
+		<div class="container same6-parents">
+			<div class="row justify-content-center">
+				<div class="col-md-4 col-sm-6 same6">
+					<div class="box1 text-center">
+						<div>
+							<div class="box2"></div>
+							<i class="flaticon-requirement"></i>
+						</div>
+					</div>
+					<div class="same6-writing">
+						<h4>1. Choose a Destination</h4>
+						<h5>incidid labore lore magna aliqua uisipsum suspendis loris.</h5>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 same6">
+					<div class="box1 text-center">
+						<div>
+							<div class="box2"></div>
+							<i class="flaticon-problem-solving"></i>
+						</div>
+					</div>
+					<div class="same6-writing">
+						<h4>2. What you want</h4>
+						<h5>incidid labore lore magna aliqua uisipsum suspendis loris.</h5>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 same6">
+					<div class="box1 text-center">
+						<div>
+							<div class="box2"></div>
+							<i class="flaticon-respect"></i>
+						</div>
+					</div>
+					<div class="same6-writing">
+						<h4>3. Go out & Explore</h4>
+						<h5>incidid labore lore magna aliqua uisipsum suspendis loris.</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- sixth-end -->
+
+	<div class="seventh-part">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-12 seventh-img wow fadeInLeft">
+					<img src="images/sea.png" alt="image">
+				</div>		
+				<div class="col-lg-8 col-12 display7">
+					<div>
+						<div class="heading7">
+							<h2>Trusted Since 2001</h2>
+							<h3>We are Travel Agent</h3>
+						</div>
+						<div class="icon7">
+							<div class="row justify-content-center">
+								<div class="col-md-4 col-sm-6 text-center same7">
+									<div class="icon-part7">
+										<i class="fas fa-ship"></i> <span>Ship</span>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 text-center same7">
+									<div class="icon-part7">
+										<i class="fas fa-train"></i> <span>Cab</span>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 text-center same7">
+									<div class="icon-part7">
+										<i class="fas fa-landmark"></i> <span>Hotel</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						<form><input type="submit" name="" value="Click Here"></form>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>
+
+	<!-- seventh-end -->
+
+	<div class="part-eight">
+		<div class="heading8">
+			<h2>Pack and Go</h2>
+			<h3>Awesome Tour</h3>
+		</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-sm-6 same8">
+					<div class="go8 wow fadeInLeft">
+						<div class="img8">
+							<img src="images/1.png" alt="image">
+						</div>
+						<h3>7 Day + 6 Night</h3>
+						<h2>New York + Paris</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<form><input type="submit" name="" value="BOOK NOW"></form>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 same8">
+					<div class="go8 wow fadeInLeft">
+						<div class="img8">
+							<img src="images/2.png" alt="image">
+						</div>
+						<h3>7 Day + 6 Night</h3>
+						<h2>New York + Paris</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<form><input type="submit" name="" value="BOOK NOW"></form>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 same8">
+					<div class="go8 wow fadeInLeft">
+						<div class="img8">
+							<img src="images/3.png" alt="image">
+						</div>
+						<h3>7 Day + 6 Night</h3>
+						<h2>New York + Paris</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<form><input type="submit" name="" value="BOOK NOW"></form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- part-eight end -->
+
+	<div class="part-nine">
+		<div class="nine-heading">
+			<h2>Trusted Since 2001</h2>
+			<h3>Go Exploore</h3>
+		</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-md-6 same9">
+					<div class="explore9 wow fadeInRight">
+						<img src="images/4.png" alt="image">
+						<form class="form9">
+							<input type="submit" name="" value="Click Here">
+						</form>
+						<div class="writing9">
+							<h2>Lorem Ipsum Dolar</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 same9">
+					<div class="explore9 wow fadeInRight">
+						<img src="images/5.png" alt="image">
+						<form class="form9">
+							<input type="submit" name="" value="Click Here">
+						</form>
+						<div class="writing9">
+							<h2>Lorem Ipsum Dolar</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 same9">
+					<div class="explore9 wow fadeInRight">
+						<img src="images/6.png" alt="image">
+						<form class="form9">
+							<input type="submit" name="" value="Click Here">
+						</form>
+						<div class="writing9">
+							<h2>Lorem Ipsum Dolar</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- nine-end -->
+
+	<div class="ten-part">
+		<div class="container">
+			<div class="ten-part-img">
+				<div class="book-now wow flipInX">
+					<h2>New York + Paris</h2>
+					<h3>7 Day + 6 Night</h3>
+					<div class="icon10">
+						<div class="row">
+							<div class="col-3 text-center">
+								<i class="fas fa-ship"></i>
+								<br>
+								<span>Ship</span>
+							</div>
+							<div class="col-3 text-center">
+								<i class="fas fa-train"></i>
+								<br>
+								<span>Train</span>
+							</div>
+							<div class="col-3 text-center">
+								<i class="fas fa-landmark"></i>
+								<br>
+								<span>Hotel</span>
+							</div>
+						</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="tenten">
+					<strong class="taka1000">$1000</strong>
+						<form class="form10">
+							<input type="submit" name="" value="BOOK NOW">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ten part end -->
+
+	<div class="eleven-part">
+		<div class="writing11 text-center">
+			<div class="heading11">
+				<h2>Customer Reviews</h2>
+				<h3>We are Travel Agent</h3>
+			</div>
+			<p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</em></p>
+			<div class="rating text-center">
+				<a><i class="fas fa-star a1 a2 a3 a4 a5 b5"></i></a>
+				<a><i class="fas fa-star a2 a3 a4 a5 b4 b5"></i></a>
+				<a><i class="fas fa-star a3 a4 a5 b3 b4 b5"></i></a>
+				<a><i class="fas fa-star a4 a5 b2 b3 b4 b5"></i></a>
+				<a><i class="fas fa-star a5 b1 b2 b3 b4 b5"></i></a>
+			</div>
+		</div>
+		<div class="img11">
+			<div class="img11img">
+				<img src="images/man1.png" alt="image">
+			</div>
+			<div class="img11-writing">
+				<h3>John Smith</h3>
+				<h4>Solo Traveller</h4>
+			</div>
+		</div>
+	</div>
+	<!-- eleven end -->
+
+	<div class="twelve-part">
+		<div class="heading12">
+			<h2>Start Your Journey</h2>
+			<h3>Contact Us</h3>
+		</div>
+		<a href="Contact/contact.html" class="map-icon"><i class="fas fa-map-marker-alt"></i></a>
+	</div>
+
+	<!-- twelve-part end-->
+
+	<div class="thirteen-part">
+		<div class="container">
+			<div class="row qwerty justify-content-center">
+				<div class="col-md-4 col-sm-6 same13">
+					<div class="same13-child">
+						<div class="icon13">
+							<i class="far fa-envelope"></i>
+						</div>
+						<div class="writing13">
+							<h3>Email</h3>
+							<p>exploree@gmail.com<br>
+							exploreeadv@gmail.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 same13">
+					<div class="same13-child">
+						<div class="icon13">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<div class="writing13">
+							<h3>Contact Us</h3>
+							<p>123456789<br>
+							123456789</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 same13">
+					<div class="same13-child">
+						<div class="icon13">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="writing13">
+							<h3>Address</h3>
+							<p>12,abcdef<br>
+							12,abcdef</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="last-icon-part">
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-facebook-f"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-google-plus-g"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-vk"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInLeft">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-youtube"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInRight">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-linkedin-in"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInRight">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-digg"></i>
+				</a>
+			</div>
+			<div class="last-fb last-icon wow fadeInRight">
+				<a href="#">
+				<div class="circle-last"></div>
+				<i class="fab fa-deviantart"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- thirteen end -->
+
+	<footer class="footer-end">
+		<div class="writing-footer text-center">
+			<p>Designed By Piyal Chowdhury
+			<br>Copyright&copy;2023, All Right Reserved	
+			</p>
+		</div>
+	</footer>
+
+	<!-- footer end -->
+
+	<!-- scroll top -->
+	<div class="scroll-to-top">
+		<i class="fas fa-arrow-up"></i>
+	</div>	
+
+
+
+
+
+  
+  <!-- js & jq -->
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/scroll.js" async></script>
+<script>
+	new WOW().init();
+</script>
+<!-- water ripples -->
+<script src="js/jquery.ripples-min.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+<!-- fontawesome -->	
+<script src="https:/kit.fontawesome.com/a2f6319d77.js" crossorigin="anonymous"></script>
+</body>
+</html>
